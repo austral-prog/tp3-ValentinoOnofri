@@ -5,6 +5,5 @@ def slice_simple():
     print (str(texto[0:3]).lower())
     print(texto[2:5]) #Tomo del 2 al 5, ya que la ultima no la incluye, por lo que debo agregar una posicion mas
     print(str(texto[0:4] + texto[-3:8]).lower())
-slice_simple()
 # Para verificar este ejercicio ejecutar el comando
 # `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
